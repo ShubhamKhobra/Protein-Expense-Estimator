@@ -40,7 +40,7 @@ fish_price = 1000
 paneer_price = 470
 milk_price = 80
 
-daily_exp = (soy_qt * (soy_price/1000)) + (whey_qt * (whey_price/1000)) + (plant_protein_qt * (plant_protein_price/1000)) +  (egg_qt * (egg_price)) + (chicken_qt * (chicken_price/1000)) + (mutton_qt * (mutton_price/1000)) + (fish_qt * (fish_price/1000)) + (paneer_qt * (paneer_price/1000)) + (milk_qt * (milk_price/1000))
+daily_exp = (soy_qt * (soy_price/1000)) + (whey_qt * (whey_price/1000)) + (casein_qt * (casein_price/1000)) + (plant_protein_qt * (plant_protein_price/1000)) +  (egg_qt * (egg_price)) + (chicken_qt * (chicken_price/1000)) + (mutton_qt * (mutton_price/1000)) + (fish_qt * (fish_price/1000)) + (paneer_qt * (paneer_price/1000)) + (milk_qt * (milk_price/1000))
 
 daily_con = soy + whey + casein + plant_protein + egg + chicken + mutton + fish + paneer + milk
 st.write('Daily protein consumption is: ', daily_con, 'g')
